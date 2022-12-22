@@ -1,14 +1,23 @@
+import { Routes,Route,BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Card from './components/Card';
+import Services from './components/Services';
+import Home from './components/Home';
+import About from './components/About';
 
 function App() {
   return (
     <div className="App">
+       <BrowserRouter>
         <Navbar/>
-        <Card/>
+        <Routes>
+          <Route index element={<Home/>} />
+          <Route exact path="About" element={<About/>} />
+          <Route exact path="Services" element={<Services/>} />
+        </Routes>
         <Footer/>
+      </BrowserRouter>
     </div>
   );
 }
