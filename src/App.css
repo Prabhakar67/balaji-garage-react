@@ -5,9 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: Roboto;
-
 }
-
 .card {
     padding: 2px 16px;
     height: 400px;
@@ -42,6 +40,7 @@
     flex-flow: wrap;
     justify-content: center;
     padding: 50px 0;
+    margin-bottom: 50px;
 }
 
 .card:hover {
@@ -119,6 +118,79 @@ ul.nav li.current a {
     display: flex;
     justify-content: center;
     padding: 15px;
+}
+
+.sect1{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-height: 40rem;
+    background-image: url('/src/img/garage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border: solid 1px black;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.heading{
+    font: menu;
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(219, 35, 35);
+    font-weight: 800;
+    margin-top: 4rem;
+}
+.subheading{
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(251, 236, 10);
+    font-weight: 501;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.uform{
+    margin-top: 20px;
+}
+input{
+    display: flex; 
+    border: solid black 1px;
+    border-radius: 3px;
+    font-size: 1rem;
+    margin: 10px;
+    padding: 15px;
+}
+
+.uform form{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-width: 70rem;
+    margin: auto;
+}
+
+.btn2{
+    color: white;
+    background-color: rgb(209, 9, 9);;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: solid 1px black;
+    border-radius: 1rem;
+    padding:0.3rem 1rem;
+    margin: auto;
+    width: 40%;
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: rgb(71, 71, 70);
+}
+.homeContainer{
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Media Queries */

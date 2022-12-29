@@ -1,9 +1,14 @@
 import React from 'react';
+import Form from '../subcomponents/Form';
+import Headings from '../subcomponents/Headings';
+import SubmitButton from '../subcomponents/SubmitButton';
 
 function Home() {
     return (
-        <div>
-            <h1>Home</h1>
+        <div className='homeContainer'>
+            <Headings />
+            <Form />
+            <SubmitButton />
         </div>
     );
 }
