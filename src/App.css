@@ -50,7 +50,7 @@
 }
 
 ul.nav {
-    display:flex;
+    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -72,7 +72,7 @@ ul.nav a {
     display: block;
     padding: 0 28px;
     text-decoration: none;
-    color: rgb(223, 219, 219);
+    color: white;
 }
 
 ul.nav a:hover,
@@ -162,6 +162,7 @@ ul.nav li.current a {
     justify-content: center;
     margin-top: 5rem;
     background-color: #8f8686;
+    padding: 5px 20px;
 
 }
 
@@ -189,13 +190,12 @@ input {
 .btn2 {
     color: white;
     background-color: rgb(209, 9, 9);
-    ;
     font-size: 1.5rem;
     font-weight: bold;
     border: solid 1px black;
     border-radius: 1rem;
     padding: 0.3rem 1rem;
-    margin: auto;
+    margin: 40px auto;
     width: 40%;
 }
 
@@ -222,8 +222,11 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+}
 
+.ContactPage {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Media Queries */

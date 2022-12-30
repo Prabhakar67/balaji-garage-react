@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Services from './components/Services';
 import Home from './components/Home';
 import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route index element={<Home/>} />
           <Route exact path="About" element={<About/>} />
           <Route exact path="Services" element={<Services/>} />
+          <Route exact path="Contact" element={<Contact/>} />
         </Routes>
         <Footer/>
       </BrowserRouter>
