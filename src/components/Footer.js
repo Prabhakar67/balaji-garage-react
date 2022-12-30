@@ -19,7 +19,7 @@ const Footer = () => {
 
                         <a href="#">Contact</a>
 
-                        <p>Cyncly &copy; 2022</p>
+                        <p>Morya Garage &copy; 2022</p>
                     </p>
 
                 </div>

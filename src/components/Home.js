@@ -1,6 +1,7 @@
 import React from 'react';
 import Form from '../subcomponents/Form';
 import Headings from '../subcomponents/Headings';
+import Logos from '../subcomponents/Logos';
 import SubmitButton from '../subcomponents/SubmitButton';
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
             <Headings />
             <Form />
             <SubmitButton />
+            <Logos/>
         </div>
     );
 }
