@@ -6,23 +6,20 @@ const Footer = () => {
         <>
             <footer className="footer-distributed">
 
-                <div className="footer-left">
+                <div className="footer-links">
+                    <a href="/">Home</a>
 
-                    <p className="footer-links">
-                        <a href="/">Home</a>
+                    <a href="/About">About</a>
 
-                        <a href="/About">About</a>
+                    <a href="/Services">Services</a>
 
-                        <a href="/Services">Services</a>
+                    <a href="/About">Faq</a>
 
-                        <a href="/About">Faq</a>
+                    <a href="/Contact">Contact</a>
 
-                        <a href="/Contact">Contact</a>
-
-                        <p>Morya Garage &copy; 2022</p>
-                    </p>
-
+                    <span className="copyright">Morya Garage &copy; 2022</span>
                 </div>
+
 
             </footer>
         </>

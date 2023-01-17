@@ -4,7 +4,7 @@
 function Moryalogo() {
     return (
         <>
-            <a href="/"> <div class="logo">MoryaGarage.com</div> </a>
+            <a href="/"> <div className="logo">MoryaGarage.com</div> </a>
         </>
     );
 }

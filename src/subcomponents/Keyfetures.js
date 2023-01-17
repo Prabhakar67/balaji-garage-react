@@ -3,9 +3,9 @@ import React from 'react';
 function Keyfetures() {
     return (
         <div>
-            <div class="img2 img"></div>
-            <h2 class="sub-heading">We offer following key fetures</h2>
-            <ul class="the-list">
+            <div className="img2 img"></div>
+            <h2 className="sub-heading">We offer following key fetures</h2>
+            <ul className="the-list">
                 <li>DoorStep Tune Up + Check up Services</li>
                 <li>Pick and Drop To Balaji verified workshops for major mechanical work</li>
                 <li>Accidental Claim and Repair service with accredited Balaji Service Station</li>

@@ -2,10 +2,10 @@ import React from 'react';
 
 function Howdowework() {
     return (
-        <div className='Howdowework'>
-            <div class="img1 img"></div>
-            <h2 class="sub-heading">How do we work? </h2>
-            <div class="the-list">
+        <div classNameName='Howdowework'>
+            <div className="img1 img"></div>
+            <h2 className="sub-heading">How do we work? </h2>
+            <div className="the-list">
                 <ol>
                     <li>Book An Appointment from Website</li>
                     <li>Provide details of Pick-up </li>
