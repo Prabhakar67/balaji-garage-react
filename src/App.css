@@ -270,6 +270,10 @@ input {
     margin-left: 60px;
 }
 
+ul.the-list {
+    margin-bottom: 90px;
+}
+
 /* Media Queries */
 
 @media (max-width: 600px) {
