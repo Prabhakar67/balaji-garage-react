@@ -2,7 +2,7 @@
 
 function SubmitButton() {
     return (
-        <button type="submit" class="btn2">Book An Appointment</button>
+        <button type="submit" className="btn2">Book An Appointment</button>
     );
 }
 

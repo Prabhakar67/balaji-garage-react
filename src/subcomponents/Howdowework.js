@@ -2,7 +2,7 @@ import React from 'react';
 
 function Howdowework() {
     return (
-        <div classNameName='Howdowework'>
+        <div className='Howdowework'>
             <div className="img1 img"></div>
             <h2 className="sub-heading">How do we work? </h2>
             <div className="the-list">
