@@ -1,4 +1,5 @@
 import React from "react"
+import strings from "../strings/strings.en-us.json";
 
 
 const Footer = () => {
@@ -7,17 +8,17 @@ const Footer = () => {
             <footer className="footer-distributed">
 
                 <div className="footer-links">
-                    <a href="/">Home</a>
+                    <a href="/">{strings['home.page.heading']}</a>
 
-                    <a href="/About">About</a>
+                    <a href="/About">{strings['about.page.heading']}</a>
 
-                    <a href="/Services">Services</a>
+                    <a href="/Services">{strings['services.page.heading']}</a>
 
-                    <a href="/About">Faq</a>
+                    <a href="/About">{strings['footer.heading.faq']}</a>
 
-                    <a href="/Contact">Contact</a>
+                    <a href="/Contact">{strings['contact.services.heading']}</a>
 
-                    <span className="copyright">Morya Garage &copy; 2022</span>
+                    <span className="copyright">{strings['footer.heading.logocopyright']}</span>
                 </div>
 
 
